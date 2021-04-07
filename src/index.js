@@ -1,3 +1,5 @@
+import { registerImage } from './lazy';
+
 const MAX = 122;
 const MIN = 1;
 
@@ -26,6 +28,7 @@ const addButton = document.querySelector('button');
 const addImage = () => {
   const newImage = createImageNode();
   mountNode.append(newImage);
+  registerImage(newImage);
 };
 
 addButton.addEventListener('click', addImage);
