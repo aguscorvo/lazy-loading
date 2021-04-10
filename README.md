@@ -11,11 +11,11 @@ Ready-to-go template to create awesome websites using Tailwind on top of Snowpac
 ## Quick start
 
 ```sh
-# Bootstrap the template into a new folder called `my-app`
-npx create-snowpack-app my-app --template snowpack-template-tailwind
+# Bootstrap the template into a new folder called `workshop-2-lazy`
+npx create-snowpack-app workshop-2-lazy --template snowpack-template-tailwind
 
 # Enable Prettier on git-commit
-cd my-app
+cd workshop-2-lazy
 npm run install:husky
 ```
 
@@ -24,11 +24,11 @@ npm run install:husky
 #### Optional install using Yarn:
 
 ```sh
-# Bootstrap the template into a new folder called `my-app`
-npx create-snowpack-app my-app --template snowpack-template-tailwind --use-yarn
+# Bootstrap the template into a new folder called `workshop-2-lazy`
+npx create-snowpack-app workshop-2-lazy --template snowpack-template-tailwind --use-yarn
 
 # Enable Prettier on git-commit
-cd my-app
+cd workshop-2-lazy
 yarn install:husky
 ```
 
