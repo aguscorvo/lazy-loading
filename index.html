@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Web site created using create-snowpack-app"
+    />
+    <!--
+      Snowpack will replace / with the value you have for `baseUrl` in `snowpack.config.js`.
+      Make sure to update it with your GitHub Page URL. https://<your-username>.github.io/<your-repo-name>
+
+      More about config options:
+      - https://www.snowpack.dev/reference/configuration#buildoptions.baseurl
+    -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/_dist_/index.css"
+    />
+    <title>Snowpack & Tailwind App</title>
+  </head>
+  <body class="bg-blue-800">
+    <div class="py-10 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <p
+          class="text-base leading-6 text-gray-100 font-semibold tracking-wide uppercase"
+        >
+          PLATZI
+        </p>
+        <h3
+          class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-yellow-600 sm:text-4xl sm:leading-10"
+        >
+          Fox 🦊
+        </h3>
+
+        <button
+          id="add"
+          class="p-2 bg-blue-200 hover:bg-blue-100 rounded-lg my-8"
+        >
+          Add a fox
+        </button>
+        <button
+          id="delete"
+          class="ml-5 p-2 bg-blue-200 hover:bg-blue-100 rounded-lg my-8"
+        >
+          Clear screen
+        </button>
+        <div id="images"></div>
+      </div>
+    </div>
+
+    <!-- Add more scripts here -->
+    <script type="module" src="/_dist_/index.js"></script>
+  </body>
+</html>
