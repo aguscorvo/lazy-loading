@@ -23,7 +23,8 @@ const createImageNode = () => {
 
 // const newImage = createImageNode();
 const mountNode = document.getElementById('images');
-const addButton = document.querySelector('button');
+const addButton = document.querySelector('#add');
+const deleteButton = document.querySelector('#delete');
 
 const addImage = () => {
   const newImage = createImageNode();
@@ -31,4 +32,12 @@ const addImage = () => {
   registerImage(newImage);
 };
 
+const deleteImages = () => {
+  while (mountNode.firstChild) {
+    const toDelete = mountNode.firstChild;
+    mountNode.removeChild(toDelete);
+  }
+};
+
 addButton.addEventListener('click', addImage);
+deleteButton.addEventListener('click', deleteImages);
