@@ -1,3 +1,7 @@
+## Github-pages
+
+[lazy-loading](https://aguscorvo.github.io/lazy-loading/)
+
 # Snowpack Tailwind
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
