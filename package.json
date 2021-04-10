@@ -5,7 +5,8 @@
     "format": "prettier --write \"src/**/*.js\"",
     "lint": "prettier --check \"src/**/*.js\"",
     "pre-commit": "pretty-quick --staged",
-    "install:husky": "husky install"
+    "install:husky": "husky install",
+    "homepage": "https://aguscorvo.github.io/lazy-loading/"
   },
   "devDependencies": {
     "husky": "6",
